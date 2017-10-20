@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/menu_message"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_chat_24dp"
+        android:orderInCategory="1" />
+    <item
+        android:id="@+id/menu_map"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/ic_person_pin_circle_24dp"
+        android:orderInCategory="2" />
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_person"
+        android:orderInCategory="3" />
+    <item
+        android:id="@+id/menu_term"
+        android:title="Terms Of Service"
+        app:showAsAction="never"
+        android:orderInCategory="2" />
+    <item
+        android:id="@+id/menu_privacy"
+        android:title="Privacy"
+        app:showAsAction="never"
+        android:orderInCategory="2" />
+</menu>
+
